@@ -5,7 +5,7 @@ function usdToInr(){
 }
 function inrToUsd(){
     let inr = document.getElementById('inputInr').value;
-    let cUsd=(inr / 81.78).toFixed(2);
+    let cUsd=(inr / 86).toFixed(2);
     document.getElementById('inputUsd').value = cUsd;
 }
 
